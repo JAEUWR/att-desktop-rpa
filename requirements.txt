@@ -1,0 +1,15 @@
+python-dotenv
+pyautogui
+pyperclip
+pytesseract
+opencv-python
+numpy
+gspread
+oauth2clientpython-dotenv
+pyautogui
+pyperclip
+pytesseract
+opencv-python
+numpy
+gspread
+oauth2client
