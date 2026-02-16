@@ -1,16 +1,17 @@
-# AT&T Legacy CRM - Desktop Automation (OCR) 
+# AT&T Legacy CRM - Desktop Automation (OCR)
 
 ### Descripción
-Solución RPA de escritorio diseñada para interactuar con CRMs heredados (Legacy) que no poseen API o interfaz web accesible. Utiliza técnicas de Visión Artificial para la extracción de datos sensibles de clientes.
+Solución de automatización de procesos robóticos de escritorio diseñada para interactuar con sistemas CRM Legacy de AT&T que carecen de APIs o interfaces web accesibles. El sistema utiliza técnicas avanzadas de Visión Artificial para emular la interacción humana y extraer información crítica de la interfaz gráfica de usuario.
 
 ### Key Features
-- **Computer Vision:** Implementación de OCR con **Tesseract** y pre-procesamiento de imágenes con **OpenCV** (Grayscale & Thresholding).
-- **GUI Control:** Automatización precisa de mouse y teclado mediante PyAutoGUI.
-- **Multi-threading:** Manejo de estados de ejecución en hilos separados para mantener la capacidad de respuesta del bot.
-- **Data Sync:** Sincronización automática de resultados con bases de datos en la nube.
+- **Computer Vision Pipeline:** Implementación de OCR con Tesseract Engine y pre-procesamiento de imágenes mediante OpenCV utilizando técnicas de escala de grises y umbralización binaria para maximizar la precisión de lectura.
+- **Control de GUI de Alta Precisión:** Automatización de periféricos virtuales (mouse y teclado) mediante PyAutoGUI con lógica de coordenadas relativas para adaptabilidad.
+- **Ejecución Multi-threading:** Gestión de estados y ciclos operativos en hilos de ejecución separados para evitar el bloqueo de la interfaz de usuario y permitir el monitoreo continuo.
+- **Sincronización Cloud:** Persistencia automatizada de datos extraídos en bases de datos distribuidas mediante Google Sheets API.
 
 ### Stack
 - Python
-- OpenCV / PyTesseract
+- OpenCV (Open Source Computer Vision Library)
+- PyTesseract (OCR Engine)
 - PyAutoGUI
-- Threading
+- Threading Library
